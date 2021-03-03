@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+/*Background*/
+body {
+	background-image: url("../images/ds_background.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-position: center;*/
+}
+
