@@ -19,3 +19,13 @@ body, html {
 	background-size: cover;
 }
 
+.dropdown-item:hover {
+	background-color: #CB444A;
+}
+
+.display-1 {
+	font-size: 72px;
+	/*text-shadow: 1px 1px #F7C144;*/
+	font-weight: bold;
+}
+
