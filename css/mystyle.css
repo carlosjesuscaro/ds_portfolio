@@ -3,6 +3,7 @@
 /*Background*/
 body, html {
 	height: 100%;
+	font-family: Montserrat;
 }
 
 .bg {
@@ -24,7 +25,7 @@ body, html {
 }
 
 .display-1 {
-	font-size: 72px;
+	font-size: 108px;
 	/*text-shadow: 1px 1px #F7C144;*/
 	font-weight: bold;
 }
