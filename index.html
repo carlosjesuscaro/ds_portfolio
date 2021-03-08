@@ -17,18 +17,20 @@
   <body>
   	<div class="bg">
         <!--Navbar-->
-        <nav class="navbar navbar-expand-md navbar-light bg-transparent fixed-top">
-            <a href="#" class="navbar-brand"><i class="fa fa-flask text-warning fa-3x ms-4"></i></a>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top back-nav">
+            <a href="#" class="navbar-brand"><i class="fa fa-flask text-warning fa-3x ps-3"></i></a>
             <button type="button" class="navbar-toggler bg-light" data-bs-toggle="collapse" data-bs-target="#nav">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse justify-content-end" id="nav">
+            <div class="collapse navbar-collapse justify-content-end pe-3" id="nav">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link text-light font-weight-bold px-4 fs-4" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link text-light font-weight-bold px-4 fs-4" href="#">Background</a></li>
-                    <li class="nav-item dropdown"><a class="nav-link text-light font-weight-bold px-3 fs-4
-                dropdown-toggle" data-bs-toggle="dropdown" href="#">Projects</a>
+                    <li class="nav-item"><a class="nav-link text-light font-weight-bold px-4 fs-4"
+                                            href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-light font-weight-bold px-4 fs-4"
+                                            href="#">Background</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link text-light font-weight-bold
+                    px-3 fs-4 dropdown-toggle" data-bs-toggle="dropdown" href="#">Projects</a>
                         <div class="dropdown-menu bg-transparent">
                             <a class="text-white dropdown-item fs-5" href="#">Multi Linear Regression</a>
                             <a class="text-white dropdown-item fs-5" href="#">Random Forest</a>
@@ -36,6 +38,7 @@
                             <a class="text-white dropdown-item fs-5" href="#">Time Series</a>
                         </div>
                     </li>
+                    <li class="nav-item"><a class="nav-link text-light font-weight-bold px-4 fs-4" href="#">About</a></li>
                     <li class="nav-item"><a class="nav-link text-light font-weight-bold px-4 fs-4" href="#">Contact</a></li>
                 </ul>
             </div>
@@ -93,65 +96,138 @@
                         dolor itaque molestias possimus quibusdam quo reprehenderit sequi tempore vitae!</p>
                     <a href="#" class="btn btn-outline-warning">Learn more</a>
                 </div>
-
-                <!--Contact-->
-                <section class="p-5 back">
-                    <div class="container-fluid">
-                        <!--Title-->
-                        <div class="row">
-                            <div class="col text-center mb-3">
-                                <h1 class="text-warning display-2">Contact</h1>
-                            </div>
-                        </div>
-                        <!--End of title-->
-                        <div class="row justify-content-center">
-                            <div class="col-lg-6 col-md-8 col-sm-10">
-                                <form class="text-muted">
-                                    <div class="form-group mb-3">
-                                        <label class="text-warning fs-3" for="name">Name</label>
-                                        <input type="text" class="form-control" id="name">
-                                    </div>
-                                    <div class="form-group mb-3">
-                                        <label class="text-warning fs-3" for="email">Email</label>
-                                        <input type="text" class="form-control" id="email">
-                                    </div>
-                                    <div class="form-group mb-3">
-                                        <label class="text-warning fs-3" for="name">Message</label>
-                                        <textarea class="form-control" id="message" rows="3"></textarea
-                                    </div>
-                                    <button class="btn btn-outline-warning btn-block mt-5" type="submit">
-                                        Submit question
-                                    </button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!--End of contact-->
-
-                <!--Footer-->
-                <footer class="back">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col text-center">
-                                <div class="py-2">
-                                    <a href="#"><i class="fa fa-linkedin fa-2x text-warning mx-3"></i></a>
-                                    <a href="#"><i class="fa fa-github fa-2x text-warning mx-3"></i></a>
-                                </div>
-                                <p class="text-light py-4 m-0">&copy; Copyright 2021 - Made by Carlos Caro</p>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-
-
             </div>
-    </section>
+        </section>
+        <!--End of Background-->
+
+        <!--Project-->
+        <section class="back p-5">
+            <div class="container-fluid">
+                <!--Title-->
+                <div class="row">
+                    <div class="col text-center mb-5">
+                        <h1 class="text-warning display-2">Projects</h1>
+                    </div>
+                </div>
+                <!--End of title-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-5 col-sm-6">
+                        <img src="images/project1.jpg" class="img-thumbnail">
+                        <h2 class="my-3 text-warning">Project 1</h2>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe.</p>
+                    </div>
+                    <div class="col-lg-5 col-sm-6">
+                        <img src="images/project2.jpg" class="img-thumbnail">
+                        <h2 class="my-3 text-warning">Project 2</h2>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe.</p>
+                    </div>
+                    <div class="col-lg-5 col-sm-6">
+                        <img src="images/project3.jpg" class="img-thumbnail">
+                        <h2 class="my-3 text-warning">Project 3</h2>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe.</p>
+                    </div>
+                    <div class="col-lg-5 col-sm-6">
+                        <img src="images/project4.jpg" class="img-thumbnail">
+                        <h2 class="my-3 text-warning">Project 4</h2>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End of project-->
+
+        <!--About-->
+        <section class="back">
+            <!--Title-->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col text-center mb-3">
+                        <h1 class="text-warning display-2">About</h1>
+                        <p class="lead text-secondary text-white fs-4">Highly trained and experienced professional</p>
+                    </div>
+                </div>
+            </div>
+            <!--End of title-->
+            <div class="row justify-content-center mx-5 px-5">
+                <p class="text-white fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Amet assumenda consequuntur eligendi enim excepturi maiores molestias
+                    nesciunt obcaecati officia optio placeat reprehenderit, saepe sequi totam voluptas.
+                    Accusamus adipisci deleniti, dolorum est, iusto laudantium maxime, nam nostrum
+                    omnis optio rerum tempora? Aperiam aut beatae blanditiis consectetur consequatur,
+                    dolore ea eveniet ex explicabo fuga, hic id iste iure maxime neque nesciunt nisi
+                    nulla obcaecati officia omnis, placeat porro saepe sed tenetur veritatis vero
+                    voluptatem? Aspernatur aut corporis dicta doloremque earum eligendi error harum
+                    illo, non, quaerat quam recusandae sit, tenetur voluptas voluptatibus! Dolorem
+                    doloribus esse et fugit itaque, molestias nihil nulla optio quasi qui, quis
+                    veritatis? Adipisci asperiores, assumenda doloribus ducimus eaque ex excepturi
+                    exercitationem, facere fugiat inventore ipsam ipsum nisi numquam placeat quasi
+                    vero voluptatibus. Consequuntur cum id nobis obcaecati sunt, tenetur. Aliquam cum
+                    cupiditate deserunt dicta dolore dolorum ea eveniet excepturi facilis fugit
+                    inventore ipsam ipsum itaque iusto laudantium minima modi nemo optio, provident
+                    reprehenderit rerum sequi similique suscipit tempore temporibus, tenetur veritatis
+                    voluptas! Blanditiis, deserunt ducimus illum maxime nobis nostrum numquam quas
+                    quibusdam reiciendis veritatis. Atque aut porro quae voluptatum. Dolore enim illo,
+                    iusto maxime minima natus necessitatibus quidem repellendus sint totam veniam vitae
+                    voluptas. Ea mollitia nam reprehenderit?</p>
+            </div>
+        </section>
+        <!--End of About-->
+
+        <!--Contact-->
+        <section class="p-5 back">
+            <div class="container-fluid">
+                <!--Title-->
+                <div class="row">
+                    <div class="col text-center mb-3">
+                        <h1 class="text-warning display-2">Contact</h1>
+                    </div>
+                </div>
+                <!--End of title-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-8 col-sm-10">
+                        <form class="text-muted">
+                            <div class="form-group mb-3">
+                                <label class="text-warning fs-3" for="name">Name:</label>
+                                <input type="text" class="form-control" id="name">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label class="text-warning fs-3" for="email">Email:</label>
+                                <input type="text" class="form-control" id="email">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label class="text-warning fs-3" for="name">Message:</label>
+                                <textarea class="form-control" id="message" rows="3"></textarea>
+                            </div>
+
+                        </form>
+
+                        <div class="col text-center my-5">
+                            <button class="btn btn-outline-warning btn-block mt-3 fs-3" type="submit">
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End of contact-->
+
+        <!--Footer-->
+        <footer class="back">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <div class="py-2">
+                            <a href="#"><i class="fa fa-linkedin fa-2x text-warning mx-3"></i></a>
+                            <a href="#"><i class="fa fa-github fa-2x text-warning mx-3"></i></a>
+                        </div>
+                        <p class="text-light py-4 m-0">&copy; Copyright 2021 - Made by Carlos Caro</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     <!--End of skills-->
-
-
-
-	</div>
+    </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
